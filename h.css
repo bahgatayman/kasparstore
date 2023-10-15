@@ -1,0 +1,144 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color:#1e293b;
+    
+  }
+  
+  header{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  aside{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content:space-evenly;
+  }
+  
+  aside a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  aside a:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+  }
+
+  .kasper{
+    color: orange;
+  }
+
+  .section1{
+    padding: 40px;
+    font-size: 25px;
+    display: flex;
+    
+    
+
+  }
+
+  .butt{
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+
+  }
+
+  .tit{
+display: flex;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .ephoto{
+    width: 500px;
+    height: 400px;
+  }
+
+  .titl{
+    font-size: 30px;
+  text-align: center;
+
+  }
+  .vcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+  }
+  .card{
+  width: 230px;
+  height: 350px;
+  margin: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f1f1f1 ;
+  
+  }
+
+  .card:hover{
+    box-shadow: 10px 20px 3px gray;
+  }
+
+  .imgcard{
+    width: 200px;
+    height: 250px;
+  }
+
+.custmer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  padding: 50px;
+  display: flex;
+  color: white;
+  
+}
+
+.re{
+  width: 350px;
+  height: 220px;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  color: #000;
+  border-radius: 10PX;
+}
+
+.imre{
+width: 90px;
+height: 90px;
+  border-radius: 50%;
+}
+
+  .brand{
+    margin: 100px 0 100px 0;
+    justify-content: space-between;
+  }
+
+  .imb{
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+  }
